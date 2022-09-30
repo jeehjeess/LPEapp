@@ -7,7 +7,7 @@ function Dialogo(props){
                     <h5 className="modal-title" id="exampleModalLabel">{props.titulo}</h5>
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form id="formulario" onSubmit={acaoCadastrar}
+                <form id="formulario" onSubmit={props.acaoCadastrar}
                     className="needs-validation" noValidate>
                     <div className="modal-body">
                        {props.children}

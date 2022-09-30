@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import Alerta from "../../Alerta";
 import PrediosContext from "./PrediosContext";
-import CampoEntrada from "../../comuns/campoentrada";
-import Dialogo from "../../comuns/dialogo";
+import CampoEntrada from "../../comuns/Campoentrada";
+import Dialogo from "../../comuns/Dialogo";
 
 function Form() {
 
@@ -29,7 +29,7 @@ function Form() {
     })()
 
     return (
-        <Dialogo id="modalEdicao" titulo="Prédios" >
+        <Dialogo id="modalEdicao" titulo="Prédios" idform="formulario" acaoCadastrar={acaoCadastrar}>
             <Alerta alerta={alerta} />
             <CampoEntrada id="txtCodigo" label="Código" tipo="text" name="codigo" value={objeto.codigo}
                 onchange={handleChange} requerido={false} readonly={true} tamanho={5}
