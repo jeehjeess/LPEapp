@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Alerta from "../../Alerta";
 import SalasContext from "./SalasContext";
-import CampoEntrada from "../../comuns/Campoentrada";
+import CampoEntrada from "../../comuns/CampoEntrada";
 import Dialogo from "../../comuns/Dialogo";
 
 function Form() {
