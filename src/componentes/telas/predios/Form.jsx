@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Alerta from "../../Alerta";
 import PrediosContext from "./PrediosContext";
-import CampoEntrada from "../../comuns/Campoentrada";
+import CampoEntrada from "../../comuns/CampoEntrada";
 import Dialogo from "../../comuns/Dialogo";
 
 function Form() {
